@@ -17,6 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+URL::forceScheme('https');
+
 Route::get('/todos', function () {
     return view('todos');
 });
@@ -32,4 +34,4 @@ Route::get('/board', function () {
 
 
 
-URL::forceScheme('https');
+
