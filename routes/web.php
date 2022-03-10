@@ -50,6 +50,6 @@ Route::get('/events-feed', function () {
 });
 
 Route::fallback(function () {
-    return "Sorry my dude, you're gonna have to refresh the page, this is basically a 404 error page.";
+    return view ('whatever');
 });
 
