@@ -35,24 +35,3 @@ $( document ).ready(function() {
 })
 </script>
 @stop
-In this calendar view, we are using the FullCalendar (Links to an external site.) plugin to render a calendar interface for the front end. And we import the library at the page level.
-
-Please modify your board.blade.php as shown on https://cse4500-laravel9.herokuapp.com/board (Links to an external site.)
-
- 
-
-4. Define a route to feed JSON data
-The line marked in red specified the source of the event data. Create a route to feed your calendar with the following JSON data:
-
-  [
-    {
-      "title": "CSE4500 Class",
-      "start": "2022-02-23T17:30:00",
-      "end": "2022-02-23T18:45:00"
-    },
-    {
-      "title": "CSE4500 Class",
-      "start": "2022-02-28T17:30:00",
-      "end": "2022-02-28T18:45:00"
-    },   
-  ]
