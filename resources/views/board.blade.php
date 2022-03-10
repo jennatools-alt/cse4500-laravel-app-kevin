@@ -181,28 +181,3 @@
         
         
     </div>
-
-    
-            <script src="https://cse4500-laravel9.herokuapp.com//vendor/jquery/jquery.min.js"></script>
-        <script src="https://cse4500-laravel9.herokuapp.com//vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="https://cse4500-laravel9.herokuapp.com//vendor/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
-
-        
-        <script src="//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js" ></script>
-            
-        
-            
-            
-            
-                            <script src="//cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js" ></script>
-            
-        
-            
-            
-            
-            
-                            
-        <script src="https://cse4500-laravel9.herokuapp.com//vendor/adminlte/dist/js/adminlte.min.js"></script>
-    
-    
-    
