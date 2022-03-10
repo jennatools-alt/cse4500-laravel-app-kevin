@@ -3,30 +3,14 @@
 @section('title', 'title')
 
 @section('content_header')
-    <h1>Header</h1>
-@stop
-
-@section('content')
-    <p>Content here</p>
-@stop
-
-@section('css')
-    <link rel="stylesheet" href="/css/admin_custom.css">
-@stop
-
-@section('js')
-    <script> console.log('Hi!'); </script>
-@stop
-
-
-             
-<div class="content-header">
+    <div class="content-header">
             <div class="container-fluid">
                     <h1>Board</h1>
             </div>
         </div>
-    
-    
+@stop
+
+@section('content')
     <div class="content">
         <div class="container-fluid">
             <div class="row">
@@ -171,13 +155,19 @@
   </div>
 <div>
 
-        </div>
-    </div>
+@stop
 
-</div>
-        
-        
-        
-        
-        
-    </div>
+@section('css')
+    <link rel="stylesheet" href="/css/admin_custom.css">
+@stop
+
+@section('js')
+    <script> console.log('Hi!'); </script>
+@stop
+
+
+             
+
+    
+    
+   
