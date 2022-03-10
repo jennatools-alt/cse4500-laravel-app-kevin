@@ -32,7 +32,7 @@ Route::get('/board', function () {
 
 URL::forceScheme('https');
 
-Route::get(/events-feed', function () {
+Route::get('/events-feed', function () {
     return '[
         {
             "title": "CSE4500 Class",
