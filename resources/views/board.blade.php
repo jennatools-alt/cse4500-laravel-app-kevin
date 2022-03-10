@@ -18,7 +18,11 @@
     <script> console.log('Hi!'); </script>
 @stop
 
-<div class="content-header">
+
+                    <div class="content-wrapper ">
+
+    
+            <div class="content-header">
             <div class="container-fluid">
                     <h1>Board</h1>
             </div>
@@ -168,14 +172,3 @@
     </div>
   </div>
 <div>
-
-        </div>
-    </div>
-
-</div>
-        
-        
-        
-        
-        
-    </div>
